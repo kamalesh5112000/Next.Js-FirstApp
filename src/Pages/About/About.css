@@ -1,0 +1,45 @@
+/* Hero.css */
+.hero-bg {
+    background-image: url('../../assets/about.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Ensure the container takes up the entire viewport */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .content {
+    /* Add styles to center the content */
+    display: flex;
+    flex-direction: column;
+    /* Optionally, add styles for content appearance */
+    color: white;
+    padding: 20px;
+    /* Center the text within the container */
+  }
+  
+  .title {
+    /* Add styles to position the title at the top */
+    margin-bottom: 20px; /* Optional spacing between title and description */
+     /* Center the title */
+     text-align: center;
+  }
+  
+  .description {
+    max-width: 300px; /* Set maximum width to control the wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  /* Optional: Add margin to separate it from the title */
+  margin-left: 10%;
+  text-align: left;
+  margin-top: 20%;
+  
+  }
+  
